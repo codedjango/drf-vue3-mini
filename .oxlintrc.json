@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "categories": {
+    "correctness": "error",
+    "suspicious": "warn"
+  },
+  "rules": {
+    "eslint/no-unused-vars": "error",
+    "no-underscore-dangle": ["error", { "allow": ["_retry"] }]
+  },
+  "ignorePatterns": ["dist/**", "node_modules/**"]
+}

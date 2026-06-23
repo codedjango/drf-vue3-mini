@@ -1,0 +1,26 @@
+{
+	"name": "vue3-simplejwt-auth",
+	"version": "0.1.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "oxlint --fix",
+		"fmt": "oxfmt --write .",
+		"format": "pnpm lint && pnpm fmt"
+	},
+	"dependencies": {
+		"axios": "^1.18.1",
+		"pinia": "^3.0.4",
+		"vue": "^3.5.38",
+		"vue-router": "^5.1.0"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^6.0.7",
+		"oxfmt": "^0.56.0",
+		"oxlint": "^1.71.0",
+		"vite": "^8.1.0"
+	}
+}
