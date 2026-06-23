@@ -1,10 +1,11 @@
 <!-- README.md -->
 
 ```
+uv lock --upgrade
 uv sync
-uv run manage.py makemigrations accounts core
+uv run manage.py makemigrations users
 uv run manage.py migrate
-uv run manage.py createsuperuser --username admin --email admin@admin.com
+uv run manage.py createsuperuser --username admin
 uv run manage.py runserver
 
 ```
